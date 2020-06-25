@@ -1,15 +1,11 @@
 ## About Laravel Blog
 
-Membuat Aplikasi Penjualan menggunakan Framework Laravel dan  Infyom Laravel Generator
-
 Cara menggunakan
 - Download repository dan ekstrak atau clone repository
-	```sh
-	$ git clone git@github.com:dwijonarko/laravel-simplePOS.git
-	```
+
 - Masuk ke direktori aplikasi dan jalankan composer
 	```sh
-	$ cd laravel-simplePOS
+	$ cd dir
 	$ composer install
 	```
 - Setting .env dan key application
@@ -30,6 +26,6 @@ Cara menggunakan
 	$ php artisan migrate
 	```
 
-- Buka browser di 127.0.0.1:8000
+- Buka browser
 - Register new account
 - Login
