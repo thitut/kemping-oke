@@ -4,7 +4,6 @@
             <th>Name</th>
         <th>Email</th>
         <th>Password</th>
-        <th>Remember Token</th>
         <th>Level</th>
             <th colspan="3">Action</th>
         </tr>
@@ -15,7 +14,6 @@
             <td>{!! $user->name !!}</td>
             <td>{!! $user->email !!}</td>
             <td>{!! $user->password !!}</td>
-            <td>{!! $user->remember_token !!}</td>
             <td>{!! $user->level !!}</td>
             <td>
                 {!! Form::open(['route' => ['users.destroy', $user->id], 'method' => 'delete']) !!}

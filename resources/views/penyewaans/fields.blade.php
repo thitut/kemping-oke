@@ -41,7 +41,7 @@
         {!! Form::hidden('_subtotal', null, ['class' => 'form-control','id'=>'subtotal','readonly','placeholder'=>'Harga']) !!}
     </div>
     <div class="col-md-3">
-        {!! Form::text('_qty', null, ['class' => 'form-control','id'=>'qty','placeholder'=>'Jumlah','autocomplete'=>'off']) !!}
+        {!! Form::text('_qty', null, ['class' => 'form-control','id'=>'qty','placeholder'=>'Sewa Berapa Hari "Masukan Angka"','autocomplete'=>'off']) !!}
     </div>
     <div class="col-md-3">
         <button class="btn btn-sm btn-info" id="btn-tambah">Tambah</button>

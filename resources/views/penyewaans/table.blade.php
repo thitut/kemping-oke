@@ -3,9 +3,10 @@
         <tr>
             <th>Tanggal</th>
             <th>Tanggal</th>
-        <th>Pelanggan Id</th>
-        <th>Pegawai Id</th>
+        <th>Nama Pelanggan</th>
+        <th>Nama Pegawai</th>
         <th>Total</th>
+        <th>Konfirmasi</th>
             <th colspan="3">Action</th>
         </tr>
     </thead>
@@ -17,6 +18,7 @@
             <td>{!! $penyewaan->pelanggan->nama !!}</td>
             <td>{!! $penyewaan->pegawai->nama !!}</td>
             <td>{!! $penyewaan->total !!}</td>
+            <td> Selesai</td>
             <td>
                 {!! Form::open(['route' => ['penyewaans.destroy', $penyewaan->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>

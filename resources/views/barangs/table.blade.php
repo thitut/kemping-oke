@@ -5,7 +5,7 @@
         <th>Nama Barang</th>
         <th>Keterangan</th>
         <th>Stock</th>
-        <th>Harga Barang</th>
+        <th>Harga Sewa / Hari</th>
         <th>Kategori</th>
         <th colspan="3">Action</th>
         </tr>

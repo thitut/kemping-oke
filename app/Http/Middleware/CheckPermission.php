@@ -39,13 +39,10 @@ class CheckPermission
     {
         switch ($id) {
             case 1:
-                return 'admin';
-                break;
-            case 2:
                 return 'superadmin';
                 break;
             default:
-                return 'user';
+                return 'admin';
                 break;
         }
     }

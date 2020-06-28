@@ -130,7 +130,7 @@ class PenyewaanController extends AppBaseController
      */
     public function edit($id)
     {   
-
+        
         $penyewaan = $this->penyewaanRepository->findWithoutFail($id);
         $pelanggan = Pelanggan::pluck('nama','id');
         $pegawai = Pegawai::pluck('nama','id');
@@ -194,4 +194,5 @@ class PenyewaanController extends AppBaseController
 
         return redirect(route('penyewaans.index'));
     }
+
 }

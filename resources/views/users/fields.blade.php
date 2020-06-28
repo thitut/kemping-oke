@@ -16,11 +16,10 @@
     {!! Form::password('password', ['class' => 'form-control']) !!}
 </div>
 
-
 <!-- Level Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('level', 'Level:') !!}
-    {!! Form::select('level',[0=>'User',1=>'Superadmin',2=>'Administrator'], null, ['class' => 'form-control']) !!}
+    {!! Form::select('level',[0=>'Admin',1=>'Superadmin'], null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Submit Field -->

@@ -23,10 +23,8 @@ class CreatePegawaisTable extends Migration
             $table->string('email');
             $table->string('telp');
             $table->string('foto');
-            $table->integer('agama_id')->unsigned();
             $table->timestamps();
             $table->softDeletes();
-            $table->foreign('agama_id')->references('id')->on('agamas');
         });
     }
 

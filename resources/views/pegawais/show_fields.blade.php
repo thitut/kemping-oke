@@ -52,12 +52,6 @@
     <p><img style="width: 200px" src="{{asset("images/".$pegawai->foto)}}" alt="" class="img img-thumbnail"></p>
 </div>
 
-<!-- Agama Id Field -->
-<div class="form-group">
-    {!! Form::label('agama_id', 'Agama:') !!}
-    <p>{!! $pegawai->agama->nama !!}</p>
-</div>
-
 <!-- Created At Field -->
 <div class="form-group">
     {!! Form::label('created_at', 'Created At:') !!}
